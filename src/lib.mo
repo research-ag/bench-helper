@@ -11,9 +11,14 @@ module {
   public type Runner = (Nat, Nat) -> ();
 
   /// Constructor for the class required by `mops bench`.
+  /// Pass in the schema and the run function defined by you.
+  /// The .bench.mo file needs an `init()` function that returns an instance of this class.
   public class V1(schema : Schema, run : (Nat, Nat) -> ()) {
+    /// Used internally by `mops bench`. Not intended to be called by users.
     public func getVersion() : Nat = 1;
+    /// Used internally by `mops bench`. Not intended to be called by users.
     public func getSchema() : Schema = schema;
+    /// Used internally by `mops bench`. Not intended to be called by users.
     public let runCell = run;
   };
 };

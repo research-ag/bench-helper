@@ -1,6 +1,6 @@
 [package]
 name = "bench-helper"
-version = "0.0.1"
+version = "0.0.2"
 description = "Types and helper class to write benchmark files for use with mops bench"
 repository = "https://github.com/research-ag/bench-helper"
 keywords = [ "mops", "bench" ]
