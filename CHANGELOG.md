@@ -1,5 +1,9 @@
 # Prng changelog
 
+## 0.0.3
+
+* Add example benches
+
 ## 0.0.2
 
 * Add doc strings
