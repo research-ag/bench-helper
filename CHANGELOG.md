@@ -1,4 +1,4 @@
-# Prng changelog
+# Bench-helper changelog
 
 ## 0.0.3
 
