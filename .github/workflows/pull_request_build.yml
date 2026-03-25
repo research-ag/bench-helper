@@ -14,7 +14,10 @@ jobs:
       - name: Install mops
         uses: caffeinelabs/setup-mops@v1
 
-      - name: Make sure moc is installed
+      - name: Install toolchain
+        run: mops install
+
+      - name: Show moc version
         run: mops toolchain bin moc || mops toolchain use moc latest
 
       - name: Show mops version
@@ -22,5 +25,8 @@ jobs:
           mops --version
           $(mops toolchain bin moc) --version
 
+      - name: Show pocket-ic version
+        run: mops toolchain bin pocket-ic
+
       - name: Run example benchmarks
-        run: mops bench --replica pocket-ic
+        run: mops bench
