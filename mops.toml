@@ -1,8 +1,17 @@
 [package]
 name = "bench-helper"
-version = "0.0.2"
+version = "0.0.3"
 description = "Types and helper class to write benchmark files for use with mops bench"
 repository = "https://github.com/research-ag/bench-helper"
 keywords = [ "mops", "bench" ]
 license = "MIT"
 
+[dev-dependencies]
+core = "2.3.1"
+
+[toolchain]
+moc = "1.3.0"
+pocket-ic = "9.0.3"
+
+[requirements]
+moc = "1.0.0"
