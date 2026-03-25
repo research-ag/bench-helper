@@ -23,4 +23,4 @@ jobs:
           $(mops toolchain bin moc) --version
 
       - name: Run example benchmarks
-        run: mops bench
+        run: mops bench --replica pocket-ic
