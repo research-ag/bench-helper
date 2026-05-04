@@ -38,6 +38,7 @@ module {
     Bench.V1(schema, run);
   };
 };
+
 ```
 
 The `bench-helper` package defines the type `Schema`, `Runner`, and the constructor `V1`.

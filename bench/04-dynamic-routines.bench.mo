@@ -46,7 +46,7 @@ module {
 
     Bench.V1(
       schema,
-      func(ri : Nat, ci : Nat) = routines[ri][ci]()
+      func(ri : Nat, ci : Nat) = routines[ri][ci](),
     );
   };
 };
