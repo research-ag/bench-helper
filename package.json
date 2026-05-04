@@ -1,6 +1,7 @@
 {
   "name": "bench-helper",
   "version": "1.0.0",
+  "private": true,
   "description": "Example benchmark file (taken from the `prng` package):",
   "main": "index.js",
   "repository": {
