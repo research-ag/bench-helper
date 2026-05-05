@@ -1,0 +1,11 @@
+node_modules/
+.mops/
+.idea/
+.vscode/
+.agents/
+.junie/
+.claude/
+.copilot/
+skills-lock.json
+*.wasm
+*.did
