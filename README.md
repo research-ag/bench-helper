@@ -38,8 +38,19 @@ module {
     Bench.V1(schema, run);
   };
 };
+
 ```
 
 The `bench-helper` package defines the type `Schema`, `Runner`, and the constructor `V1`.
 
 A systematic set of examples can be found in the `bench/` directory.
+
+## Development
+
+### Formatting
+
+To format the code, run:
+
+```bash
+npx -y prettier --plugin prettier-plugin-motoko --write '**/*.{mo,json,md}'
+```
