@@ -7,11 +7,15 @@ keywords = [ "mops", "bench" ]
 license = "MIT"
 
 [dev-dependencies]
-core = "2.5.0"
+core = "2.6.1"
+
+[optimize]
+args = [ "--all-features" ]
 
 [toolchain]
-moc = "1.7.0"
-pocket-ic = "9.0.3"
+moc = "1.14.1"
+pocket-ic = "15.0.0"
+wasm-opt = "132"
 
 [requirements]
 moc = "1.0.0"
