@@ -1,5 +1,9 @@
 # Bench-helper changelog
 
+## 0.0.4
+
+- Example benches: replace deprecated `Blob.fromArray`; compile warning-free with moc 2.0.0
+
 ## 0.0.3
 
 - Add example benches
