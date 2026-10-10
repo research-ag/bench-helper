@@ -15,12 +15,12 @@ module {
   // Generate a Blob of zero bytes of given length
   func zeros(len : Nat) : Blob {
     Array.tabulate<Nat8>(len, func _ = 0)
-    |> Blob.fromArray(_);
+    |> _.toBlob();
   };
   // Generate a Blob of mixed bytes of given length
   func mixed(len : Nat) : Blob {
     Array.tabulate<Nat8>(len, func i = (i % 256).toNat8())
-    |> Blob.fromArray(_);
+    |> _.toBlob();
   };
 
   public func init() : Bench.V1 {

@@ -15,7 +15,7 @@ module {
   // Generate a Blob of mixed bytes of given length
   func mixedBytes(len : Nat) : Blob {
     Array.tabulate<Nat8>(len, func i = (i % 256).toNat8())
-    |> Blob.fromArray(_);
+    |> _.toBlob();
   };
 
   public func init() : Bench.V1 {
