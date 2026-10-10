@@ -10,7 +10,6 @@ license = "MIT"
 core = "2.6.2"
 
 [optimize]
-args = [ "--all-features" ]
 
 [toolchain]
 moc = "2.0.0"
