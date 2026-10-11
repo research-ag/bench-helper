@@ -43,7 +43,7 @@ module {
 
 The `bench-helper` package defines the type `Schema`, `Runner`, and the constructor `V1`.
 
-A systematic set of examples can be found in the `bench/` directory.
+A systematic set of examples can be found in the [`bench/`](https://github.com/research-ag/bench-helper/tree/main/bench) directory of the repository.
 
 ## Development
 
@@ -54,3 +54,7 @@ To format the code, run:
 ```bash
 npx -y prettier --plugin prettier-plugin-motoko --write '**/*.{mo,json,md}'
 ```
+
+## License
+
+This project is licensed under the MIT License.

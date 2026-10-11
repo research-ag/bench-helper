@@ -9,3 +9,8 @@ node_modules/
 skills-lock.json
 *.wasm
 *.did
+.icp/
+package.json
+package-lock.json
+.dfx/
+build/
